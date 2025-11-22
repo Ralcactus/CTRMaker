@@ -16,7 +16,7 @@
   "exportToGame":true,
   "extensionVersion":"0.0.1",
   "files":[
-    {"$GMExtensionFile":"","%Name":"libxprocess.dll","constants":[
+    {"$GMExtensionFile":"v1","%Name":"libxprocess.dll","constants":[
         {"$GMExtensionConstant":"","%Name":"KINFO_EXEP","hidden":false,"name":"KINFO_EXEP","resourceType":"GMExtensionConstant","resourceVersion":"2.0","value":"0x1000",},
         {"$GMExtensionConstant":"","%Name":"KINFO_CWDP","hidden":false,"name":"KINFO_CWDP","resourceType":"GMExtensionConstant","resourceVersion":"2.0","value":"0x2000",},
         {"$GMExtensionConstant":"","%Name":"KINFO_PPID","hidden":false,"name":"KINFO_PPID","resourceType":"GMExtensionConstant","resourceVersion":"2.0","value":"0x0100",},
@@ -69,14 +69,14 @@
         {"$GMExtensionFunction":"","%Name":"ProcInfoFromProcIdEx","argCount":0,"args":[2,2,],"documentation":"","externalName":"ProcInfoFromProcIdEx","help":"ProcInfoFromProcIdEx(procId,kInfoFlags)","hidden":false,"kind":1,"name":"ProcInfoFromProcIdEx","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":2,},
         {"$GMExtensionFunction":"","%Name":"SetBufferLimitForStandardOutput","argCount":0,"args":[2,],"documentation":"","externalName":"SetBufferLimitForStandardOutput","help":"SetBufferLimitForStandardOutput(limit)","hidden":false,"kind":1,"name":"SetBufferLimitForStandardOutput","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":2,},
         {"$GMExtensionFunction":"","%Name":"CurrentProcessReadFromStandardInput","argCount":0,"args":[],"documentation":"","externalName":"CurrentProcessReadFromStandardInput","help":"CurrentProcessReadFromStandardInput()","hidden":false,"kind":1,"name":"CurrentProcessReadFromStandardInput","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":1,},
-      ],"init":"","kind":1,"name":"libxprocess.dll","order":[],"origname":"","ProxyFiles":[
+      ],"init":"","kind":1,"name":"libxprocess.dll","origname":"","ProxyFiles":[
         {"$GMProxyFile":"","%Name":"libxprocess.dylib","name":"libxprocess.dylib","resourceType":"GMProxyFile","resourceVersion":"2.0","TargetMask":1,},
         {"$GMProxyFile":"","%Name":"libxprocess_arm.so","name":"libxprocess_arm.so","resourceType":"GMProxyFile","resourceVersion":"2.0","TargetMask":7,},
         {"$GMProxyFile":"","%Name":"libxprocess_arm64.so","name":"libxprocess_arm64.so","resourceType":"GMProxyFile","resourceVersion":"2.0","TargetMask":7,},
         {"$GMProxyFile":"","%Name":"libxprocess.so","name":"libxprocess.so","resourceType":"GMProxyFile","resourceVersion":"2.0","TargetMask":7,},
       ],"resourceType":"GMExtensionFile","resourceVersion":"2.0","uncompress":false,"usesRunnerInterface":false,},
-    {"$GMExtensionFile":"","%Name":"libxprocess.zip","constants":[],"copyToTargets":0,"filename":"libxprocess.zip","final":"","functions":[],"init":"","kind":4,"name":"libxprocess.zip","order":[],"origname":"","ProxyFiles":[],"resourceType":"GMExtensionFile","resourceVersion":"2.0","uncompress":false,"usesRunnerInterface":false,},
-    {"$GMExtensionFile":"","%Name":"libxprocess.gml","constants":[],"copyToTargets":194,"filename":"libxprocess.gml","final":"","functions":[
+    {"$GMExtensionFile":"v1","%Name":"libxprocess.zip","constants":[],"copyToTargets":0,"filename":"libxprocess.zip","final":"","functions":[],"init":"","kind":4,"name":"libxprocess.zip","origname":"","ProxyFiles":[],"resourceType":"GMExtensionFile","resourceVersion":"2.0","uncompress":false,"usesRunnerInterface":false,},
+    {"$GMExtensionFile":"v1","%Name":"libxprocess.gml","constants":[],"copyToTargets":194,"filename":"libxprocess.gml","final":"","functions":[
         {"$GMExtensionFunction":"","%Name":"libxprocess_init","argCount":0,"args":[],"documentation":"","externalName":"libxprocess_init","help":"libxprocess_init()","hidden":false,"kind":2,"name":"libxprocess_init","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":2,},
         {"$GMExtensionFunction":"","%Name":"execute_shell","argCount":0,"args":[1,1,],"documentation":"","externalName":"execute_shell","help":"execute_shell(prog,arg)","hidden":false,"kind":2,"name":"execute_shell","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":2,},
         {"$GMExtensionFunction":"","%Name":"execute_program","argCount":0,"args":[1,1,2,],"documentation":"","externalName":"execute_program","help":"execute_program(prog,arg,wait)","hidden":false,"kind":2,"name":"execute_program","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":2,},
@@ -87,7 +87,7 @@
         {"$GMExtensionFunction":"","%Name":"file_text_open_read_stdout","argCount":0,"args":[2,],"documentation":"","externalName":"file_text_open_read_stdout","help":"file_text_open_read_stdout(pid)","hidden":false,"kind":2,"name":"file_text_open_read_stdout","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":2,},
         {"$GMExtensionFunction":"","%Name":"file_text_read_string_stdout","argCount":0,"args":[2,],"documentation":"","externalName":"file_text_read_string_stdout","help":"file_text_read_string_stdout(file)","hidden":false,"kind":2,"name":"file_text_read_string_stdout","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":1,},
         {"$GMExtensionFunction":"","%Name":"file_text_close_stdout","argCount":0,"args":[2,],"documentation":"","externalName":"file_text_close_stdout","help":"file_text_close_stdout(file)","hidden":false,"kind":2,"name":"file_text_close_stdout","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":2,},
-      ],"init":"libxprocess_init","kind":2,"name":"libxprocess.gml","order":[],"origname":"","ProxyFiles":[],"resourceType":"GMExtensionFile","resourceVersion":"2.0","uncompress":false,"usesRunnerInterface":false,},
+      ],"init":"libxprocess_init","kind":2,"name":"libxprocess.gml","origname":"","ProxyFiles":[],"resourceType":"GMExtensionFile","resourceVersion":"2.0","uncompress":false,"usesRunnerInterface":false,},
   ],
   "gradleinject":"",
   "hasConvertedCodeInjection":true,

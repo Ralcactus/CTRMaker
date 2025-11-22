@@ -1,0 +1,1 @@
+global.icon_sprite = spr_icon_default;

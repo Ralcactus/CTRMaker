@@ -16,7 +16,7 @@
   "exportToGame":true,
   "extensionVersion":"1.0.0",
   "files":[
-    {"$GMExtensionFile":"","%Name":"libfilesystem.dll","constants":[
+    {"$GMExtensionFile":"v1","%Name":"libfilesystem.dll","constants":[
         {"$GMExtensionConstant":"","%Name":"FD_RDONLY","hidden":false,"name":"FD_RDONLY","resourceType":"GMExtensionConstant","resourceVersion":"2.0","value":"0",},
         {"$GMExtensionConstant":"","%Name":"FD_WRONLY","hidden":false,"name":"FD_WRONLY","resourceType":"GMExtensionConstant","resourceVersion":"2.0","value":"1",},
         {"$GMExtensionConstant":"","%Name":"FD_RDWR","hidden":false,"name":"FD_RDWR","resourceType":"GMExtensionConstant","resourceVersion":"2.0","value":"2",},
@@ -140,16 +140,16 @@
         {"$GMExtensionFunction":"","%Name":"directory_get_music_path","argCount":0,"args":[],"documentation":"","externalName":"directory_get_music_path","help":"directory_get_music_path()","hidden":false,"kind":1,"name":"directory_get_music_path","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":1,},
         {"$GMExtensionFunction":"","%Name":"directory_get_pictures_path","argCount":0,"args":[],"documentation":"","externalName":"directory_get_pictures_path","help":"directory_get_pictures_path()","hidden":false,"kind":1,"name":"directory_get_pictures_path","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":1,},
         {"$GMExtensionFunction":"","%Name":"directory_get_videos_path","argCount":0,"args":[],"documentation":"","externalName":"directory_get_videos_path","help":"directory_get_videos_path()","hidden":false,"kind":1,"name":"directory_get_videos_path","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":1,},
-      ],"init":"","kind":1,"name":"libfilesystem.dll","order":[],"origname":"extensions\\libfilesystem.dll","ProxyFiles":[
+      ],"init":"","kind":1,"name":"libfilesystem.dll","origname":"extensions\\libfilesystem.dll","ProxyFiles":[
         {"$GMProxyFile":"","%Name":"libfilesystem.dylib","name":"libfilesystem.dylib","resourceType":"GMProxyFile","resourceVersion":"2.0","TargetMask":1,},
         {"$GMProxyFile":"","%Name":"libfilesystem_arm.so","name":"libfilesystem_arm.so","resourceType":"GMProxyFile","resourceVersion":"2.0","TargetMask":7,},
         {"$GMProxyFile":"","%Name":"libfilesystem_arm64.so","name":"libfilesystem_arm64.so","resourceType":"GMProxyFile","resourceVersion":"2.0","TargetMask":7,},
         {"$GMProxyFile":"","%Name":"libfilesystem.so","name":"libfilesystem.so","resourceType":"GMProxyFile","resourceVersion":"2.0","TargetMask":7,},
       ],"resourceType":"GMExtensionFile","resourceVersion":"2.0","uncompress":false,"usesRunnerInterface":false,},
-    {"$GMExtensionFile":"","%Name":"libfilesystem.zip","constants":[],"copyToTargets":0,"filename":"libfilesystem.zip","final":"","functions":[],"init":"","kind":4,"name":"libfilesystem.zip","order":[],"origname":"extensions\\libfilesystem.zip","ProxyFiles":[],"resourceType":"GMExtensionFile","resourceVersion":"2.0","uncompress":false,"usesRunnerInterface":false,},
-    {"$GMExtensionFile":"","%Name":"libfilesystem.gml","constants":[],"copyToTargets":194,"filename":"libfilesystem.gml","final":"","functions":[
+    {"$GMExtensionFile":"v1","%Name":"libfilesystem.zip","constants":[],"copyToTargets":0,"filename":"libfilesystem.zip","final":"","functions":[],"init":"","kind":4,"name":"libfilesystem.zip","origname":"extensions\\libfilesystem.zip","ProxyFiles":[],"resourceType":"GMExtensionFile","resourceVersion":"2.0","uncompress":false,"usesRunnerInterface":false,},
+    {"$GMExtensionFile":"v1","%Name":"libfilesystem.gml","constants":[],"copyToTargets":194,"filename":"libfilesystem.gml","final":"","functions":[
         {"$GMExtensionFunction":"","%Name":"generate_working_directory","argCount":0,"args":[],"documentation":"","externalName":"generate_working_directory","help":"","hidden":false,"kind":2,"name":"generate_working_directory","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":1,},
-      ],"init":"generate_working_directory","kind":2,"name":"libfilesystem.gml","order":[],"origname":"","ProxyFiles":[],"resourceType":"GMExtensionFile","resourceVersion":"2.0","uncompress":false,"usesRunnerInterface":false,},
+      ],"init":"generate_working_directory","kind":2,"name":"libfilesystem.gml","origname":"","ProxyFiles":[],"resourceType":"GMExtensionFile","resourceVersion":"2.0","uncompress":false,"usesRunnerInterface":false,},
   ],
   "gradleinject":"",
   "hasConvertedCodeInjection":true,
