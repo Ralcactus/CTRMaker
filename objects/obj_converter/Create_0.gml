@@ -5,11 +5,23 @@ compile_output = "";
 
 function scr_compile(){
 	#region init stuff
-	global.yyp = get_open_filename("GameMaker Project (*.yyp)", "");
-	global.project_path = filename_path(global.yyp);
-
 	scr_resetbuild();
+	
+	//error handling
+	global.output = "";
+	if (!file_exists(global.yyp) || !directory_exists(global.project_path)) {
+		show_message("Error!\nInvalid project path.\nPlease make sure you have selected a valid project.");
+		global.output = string_concat(global.output, "build failed! Invalid project path!");
+		exit;
+	}
 
+	if (!string_ends_with(global.yyp, ".yyp")) {
+		show_message("Error!\nInvalid project file.\nPlease select a valid GameMaker project.");
+		global.output = string_concat(global.output, "build failed! Invalid project file!");
+		exit;
+	}
+
+	
 	//create dirs, copy makefile, copy compile bat, and copy icon
 	directory_create(global.project_path + "export_project\\");
 	directory_create(global.project_path + "export_project\\source\\");
